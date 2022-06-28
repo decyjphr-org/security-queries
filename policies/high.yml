@@ -1,1 +1,7 @@
+name: High Threat Model Policy
 
+codescanning:
+  level: high
+  remediate:
+    high: 7
+    medium: 30
