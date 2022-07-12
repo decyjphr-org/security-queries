@@ -1,5 +1,5 @@
 codescanning:
-  level: critical
+  level: high
   conditions:
     ids:
       - "*/sql-injection"
