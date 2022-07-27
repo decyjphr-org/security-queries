@@ -6,7 +6,6 @@ codescanning:
       - "*/xss"
       - "*/stored-xss"
       - "*/command-line-injection"
-      - "*/zipslip"
 
   ignores:
     ids:
