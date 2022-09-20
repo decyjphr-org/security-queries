@@ -14,4 +14,6 @@ codescanning:
       - js/log-injection
     names:
       - "Missing rate limiting"
+    cwes:
+      - cwe-022
 
