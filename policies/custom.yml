@@ -7,8 +7,11 @@ codescanning:
       - "*/stored-xss"
       - "*/command-line-injection"
       - "*/zipslip"
+    cwes:
+      - cwe-022
   ignores:
     ids:
       - js/log-injection
     names:
       - "Missing rate limiting"
+
