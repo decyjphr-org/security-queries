@@ -15,4 +15,7 @@ codescanning:
     names:
       - "Missing rate limiting"
       
-
+secretscanning:
+  types: 
+  - "mailchimp*"
+  - "amazon*"
