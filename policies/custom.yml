@@ -17,5 +17,5 @@ codescanning:
       
 secretscanning:
   types: 
-  - "mailchimp*"
+  - "*"
   - "amazon*"
