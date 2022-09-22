@@ -16,6 +16,7 @@ codescanning:
       - "Missing rate limiting"
       
 secretscanning:
-  types: 
-  - "*"
-  - "amazon*"
+  conditions:
+    types: 
+    - "*"
+    - "amazon*"
