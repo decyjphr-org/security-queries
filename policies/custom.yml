@@ -20,3 +20,6 @@ secretscanning:
     types: 
     - "*"
     - "amazon*"
+  ignores:
+    types: 
+    - "amazon*"
