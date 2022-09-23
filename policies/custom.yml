@@ -19,7 +19,7 @@ secretscanning:
   conditions:
     types: 
     - "*"
-    - "amazon*"
+    - "aws*"
   ignores:
     types: 
-    - "amazon*"
+    - "aws*"
