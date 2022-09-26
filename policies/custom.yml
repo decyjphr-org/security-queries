@@ -8,7 +8,7 @@ codescanning:
       - "*/command-line-injection"
       - "*/ssszipslip"
     cwes:
-      - cwe-022
+      - cwe-0221
   ignores:
     ids:
       - js/log-injection
