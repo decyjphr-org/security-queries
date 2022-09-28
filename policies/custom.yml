@@ -6,7 +6,7 @@ codescanning:
       - "*/xss"
       - "*/stored-xss"
       - "*/command-line-injection"
-      - "*/ssszipslip"
+      - "*/zipslip"
     cwes:
       - cwe-0221
   ignores:
