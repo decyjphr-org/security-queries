@@ -9,6 +9,41 @@ codescanning:
       - "*/zipslip"
     cwes:
       - cwe-0221
+      - cwe-015
+      - cwe-074 
+      - cwe-077 
+      - cwe-078 
+      - cwe-079
+      - cwe-080
+      - cwe-083 
+      - cwe-086
+      - cwe-089
+      - cwe-095
+      - cwe-098
+      - cwe-111
+      - cwe-114
+      - cwe-115
+      - cwe-121
+      - cwe-134
+      - cwe-135
+      - cwe-190
+      - cwe-242
+      - cwe-243
+      - cwe-259
+      - cwe-287
+      - cwe-345
+      - cwe-352
+      - cwe-434
+      - cwe-494 
+      - cwe-506
+      - cwe-511 
+      - cwe-564
+      - cwe-618
+      - cwe-639
+      - cwe-708
+      - cwe-749
+      - cwe-798
+      - cwe-943
   ignores:
     ids:
       - js/log-injection
@@ -19,7 +54,6 @@ secretscanning:
   conditions:
     types: 
     - "*"
-    - "aws*"
   ignores:
     types: 
-    - "aws*"
+    - "ECS*"
