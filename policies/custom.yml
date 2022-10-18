@@ -57,3 +57,4 @@ secretscanning:
   ignores:
     types: 
     - "ECS*"
+    - "ecs*"
