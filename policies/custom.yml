@@ -2,14 +2,22 @@ codescanning:
   level: critical
   conditions:
     ids:
-      - "*/sql-injection"
-      - "*/xss"
-      - "*/stored-xss"
-      - "*/command-line-injection"
-      - "*/zipslip"
+      - "**/xss"
+      - "**/stored-xss"
+      - "*/cgi-xss"
+      - "*/xss-local"
+      - "*/xss-through-exception"
+      - "*/reflected-xss"
+      - "*/xss-through-dom"
+      - "*/csrf-protection-disabled"
+      - "*/spring-disabled-csrf-protection"
+      - "*/hardcoded-credential*"
+      - "*/cors-misconfiguration-for-credentials"
+      - "*/credentials-in-properties"
+      - "*/hardcoded-connection-string-credentials"
+
+    names: []
     cwes:
-      - cwe-0221
-      - cwe-015
       - cwe-074 
       - cwe-077 
       - cwe-078 
@@ -17,7 +25,7 @@ codescanning:
       - cwe-080
       - cwe-083 
       - cwe-086
-      - cwe-089
+      - cwe-089 
       - cwe-095
       - cwe-098
       - cwe-111
@@ -44,12 +52,28 @@ codescanning:
       - cwe-749
       - cwe-798
       - cwe-943
+      - cwe-20
+      - cwe-73
+      - cwe-79
+      - cwe-94
+      - cwe-133
+      - cwe-184
+      - cwe-345
+      - cwe-435
+      - cwe-456
+      - cwe-506
+      - cwe-610
+      - cwe-642
+      - cwe-682
+      - cwe-695
+      - cwe-706
+      - cwe-749
+      - cwe-829
   ignores:
-    ids:
-      - js/log-injection
-    names:
-      - "Missing rate limiting"
-      
+    ids: []
+    names: []
+    cwes: []  
+
 secretscanning:
   conditions:
     types: 
@@ -58,3 +82,5 @@ secretscanning:
     types: 
     - "ECS*"
     - "ecs*"
+    - "ECS *"
+    - "ecs *"
